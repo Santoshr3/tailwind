@@ -53,16 +53,97 @@
          </ul>
       </div>
 <!-- resposnive grids 4-1-23 -->
-<div class="container mx-auto pl-20 pr-20 pt-20 mb-40">
+<div class="container mx-auto pl-20 pr-20 pt-20 pb-40">
    <div id="feature">
       <p class="text-2xl mt-10 mb-12 pb-5 border border-grey-900 border-t-0 border-l-0 border-r-0 border-b-1">Responsive Cards</p>
    </div>
   <div class="grid md:grid-cols-2 lg:grid-cols-4 xs:grid-cols-4 gap-6">
-    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-red-100 h-48 bg-purple-100 cursor-pointer md:px-12">1</div>
-    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-purple-100 h-48 bg-red-100 cursor-pointer   md:px-12">2</div>
-    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-orange-100 h-48 bg-yellow-100 cursor-pointer   md:px-12">3</div>
-    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-yellow-100 h-48 bg-orange-100 cursor-pointer   md:px-12">4</div>
+    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-red-100 transition h-48 bg-purple-100 cursor-pointer md:px-12">1</div>
+    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-purple-100 transition h-48 bg-red-100 cursor-pointer   md:px-12">2</div>
+    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-orange-100 transition h-48 bg-yellow-100 cursor-pointer   md:px-12">3</div>
+    <div class="flex justify-center items-center text-6xl border-8 border-gray-300 hover:bg-yellow-100 transition h-48 bg-orange-100 cursor-pointer   md:px-12">4</div>
   </div>
 </div>
+
+<!-- accordion  -->
+ <div class="container mx-auto pl-20 pr-20 pb-40">
+   <div class="m-8 rounded overflow-hidden">
+     <!-- accordion-tab  -->
+     <div class="group outline-none accordion-section" tabindex="1">
+       <div class="group bg-gray-900 flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative">
+         <div class="group-focus:text-white transition ease duration-500">
+           Title for Tab - 1
+         </div>
+         <div class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+           <i class="fas fa-chevron-down"></i>
+         </div>
+       </div>
+       <div class="group-focus:max-h-screen max-h-0 bg-gray-800 px-4 overflow-hidden ease duration-500">
+         <p class="p-2 text-gray-400 text-justify">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+           repellat amet doloribus consequuntur eos similique provident
+           tempora voluptates iure quia fuga dicta voluptatibus culpa
+           mollitia recusandae delectus id suscipit labore?
+         </p>
+       </div>
+     </div>
+     <!-- accordion-tab -->
+     <!-- accordion-tab  -->
+     <div class="group outline-none accordion-section" tabindex="2">
+       <div class="group bg-gray-900 flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative">
+         <div class="group-focus:text-white transition ease duration-500">
+           Title for Tab - 2
+         </div>
+         <div class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+           <i class="fas fa-chevron-down"></i>
+         </div>
+       </div>
+       <div class="group-focus:max-h-screen max-h-0 bg-gray-800 px-4 overflow-hidden ease duration-500">
+         <p class="p-2 text-gray-400 text-justify">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+           repellat amet doloribus consequuntur eos similique provident
+           tempora voluptates iure quia fuga dicta voluptatibus culpa
+           mollitia recusandae delectus id suscipit labore?
+         </p>
+       </div>
+     </div>
+     <!-- accordion-tab -->
+     <!-- accordion-tab  -->
+     <div class="group outline-none accordion-section" tabindex="3">
+       <div class="group bg-gray-900 flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative">
+         <div class="group-focus:text-white transition ease duration-500">
+           Title for Tab - 3
+         </div>
+         <div class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+           <i class="fas fa-chevron-down"></i>
+         </div>
+       </div>
+       <div class="group-focus:max-h-screen max-h-0 bg-gray-800 px-4 overflow-hidden ease duration-500">
+         <p class="p-2 text-gray-400 text-justify">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+           repellat amet doloribus consequuntur eos similique provident
+           tempora voluptates iure quia fuga dicta voluptatibus culpa
+           mollitia recusandae delectus id suscipit labore?
+         </p> 
+       </div> 
+     </div>
+     <!-- accordion-tab -->
+   </div>
+ </div>
+
+<!-- accordion -->
+<div class="flex justify-center items-center h-screen w-full bg-gradient-to-r from-green-100 to-blue-100">
+  <div class="bg-white w-full sm:w-1/2 lg:w-96 border border-gray-200 divide-y divide-gray-200">
+    <details>
+      <summary class="question py-3 px-4 cursor-pointer select-none w-full outline-none">How is this made?</summary>
+      <p class="pt-1 pb-3 px-4">With the HTML5  element and some Tailwind for showcase.</pre>
+    </details>
+    <details>
+      <summary class="question py-3 px-4 cursor-pointer select-none w-full">Can I use it?</summary>
+      <p class="pt-1 pb-3 px-4">Of course. It's yours to use wherever and whenever you like.</p>
+    </details>
+  </div>
+</div>
+
    </body>
 </html>
