@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Tailwind Training</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
       <script src="https://cdn.tailwindcss.com"></script>
    </head>
    <body>
@@ -131,19 +132,87 @@
    </div>
  </div>
 
-<!-- accordion -->
-<div class="flex justify-center items-center h-screen w-full bg-gradient-to-r from-green-100 to-blue-100">
-  <div class="bg-white w-full sm:w-1/2 lg:w-96 border border-gray-200 divide-y divide-gray-200">
-    <details>
-      <summary class="question py-3 px-4 cursor-pointer select-none w-full outline-none">How is this made?</summary>
-      <p class="pt-1 pb-3 px-4">With the HTML5  element and some Tailwind for showcase.</pre>
-    </details>
-    <details>
-      <summary class="question py-3 px-4 cursor-pointer select-none w-full">Can I use it?</summary>
-      <p class="pt-1 pb-3 px-4">Of course. It's yours to use wherever and whenever you like.</p>
-    </details>
+ <!-- template layout -->
+ <div>
+   <div class="container max-w-[1200px] mr-auto ml-auto pl-4 pr-4 text-center ">
+    <div class="background bg-slate-100 pt-24 pb-24 pl-6 pr-6 rounded-[72px]">
+           <h1 class="text-5xl orange-darkest mb-9 font-bold max-w-2xl mr-auto ml-auto md:text-2xl lg:text-5xl gap-6">What the People Thinks About Us</h1>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center">
+      <div class="pr-5 pl-5">
+       <div class="bg-white pl-9 pr-9 pt-12 pb-12 rounded-[20px]">
+         <div class="flex items-center">
+         <img class="rounded-full" src="images/Photo-1.jpg">
+         <div class="media-head pl-4 justify-center ">
+           <h3 class="block text-left font-bold text-base">Nattasha Mith</h3>
+           <p class="block text-left text-sm">Sydney, USA</p>
+         </div>
+       </div>
+       <div class="block text-left pt-10 min-h-[140px]">Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.</div>
+       </div>
+     </div>
+    <div class="pr-5 pl-5">
+       <div class="bg-white pl-9 pr-9 pt-12 pb-12 rounded-[20px]">
+         <div class="flex items-center">
+         <img class="rounded-full" src="images/Photo-2.jpg">
+         <div class="media-head pl-4 justify-center ">
+           <h3 class="block text-left font-bold text-base">Raymond Galario</h3>
+           <p class="block text-left text-sm">Sydney, Australia</p>
+         </div>
+       </div>
+       <div class="block text-left pt-10 min-h-[140px]">Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been scrambled it to make a type book.</div>
+       </div>
+     </div>
+    <div class="pr-5 pl-5">
+       <div class="bg-white pl-9 pr-9 pt-12 pb-12 rounded-[20px]">
+         <div class="flex items-center">
+         <img class="rounded-full" src="images/Photo-3.jpg">
+         <div class="media-head pl-4 justify-center ">
+           <h3 class="block text-left font-bold text-base">Benny Roll</h3>
+           <p class="block text-left text-sm">Sydney, New York</p>
+         </div>
+       </div>
+       <div class="block text-left pt-10 min-h-[140px]">Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been scrambled.</div>
+       </div>
+     </div>
+     </div>
+    </div>
+   </div>
+ </div>
+
+
+<div class="container max-w-[1200px] mr-auto pl-4 pr-4 ml-auto text-center">
+  <div class="pt-24 pb-24 pl-6 pr-6 rounded-[72px]">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center">
+      <div class="pr-5 pl-5">
+       <div>
+         <div class="flex justify-center items-center">
+            <img src="images/01.svg">
+       </div>
+       </div>
+     </div>
+      <div class="pr-5 pl-5">
+       <div>
+         <div class="flex justify-center items-center">
+            <img src="images/02.svg">
+       </div>
+       </div>
+     </div>
+      <div class="pr-5 pl-5">
+       <div>
+         <div class="flex justify-center items-center">
+            <img src="images/03.svg">
+       </div>
+       </div>
+     </div>
+      <div class="pr-5 pl-5">
+       <div>
+         <div class="flex justify-center items-center">
+            <img src="images/04.svg">
+       </div>
+     </div>
+   </div>
   </div>
 </div>
-
+</div>
    </body>
 </html>
